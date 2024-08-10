@@ -1,7 +1,7 @@
 body {
-  margin : 0;
-  background : #303030;
-  color: white
+  margin: 0;
+  background: #303030;
+  color: white;
 }
 
 .title {
@@ -9,7 +9,7 @@ body {
   margin-top: 150px;
 }
 
-.title-sub{
+.title-sub {
   text-align: center;
 }
 
@@ -20,4 +20,27 @@ body {
   color: black;
   padding: 20px;
   border-radius: 5px;
+}
+
+.navbar {
+  background: white;
+  padding: 20px;
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.food-img {
+  width: 100%;
+  height: auto;
+}
+
+.cart-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
 }
