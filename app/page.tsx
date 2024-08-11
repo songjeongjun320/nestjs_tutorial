@@ -1,10 +1,17 @@
-/* Main Page */
+import { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Next.js Tutorial",
+  description: "Learning Next.js Tutorial",
+};
+
 export default function Home() {
-  let name = "Song";
   return (
-    <div>
-      <h4 className="title">Jun Fresh</h4>
-      <p className="title-sub">by Jun {name}</p>
-    </div>
+    <main>
+      Home
+      <Link href="/dashboard">Go To Dashboard</Link>
+    </main>
   );
 }
